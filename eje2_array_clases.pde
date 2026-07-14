@@ -23,7 +23,6 @@ void setup () {
 }
 
 void draw() {
-  background(220);
   for (int i = 0; i < cant; i ++){
     moviles[i].Mover();
     moviles[i].Mostrar();
@@ -31,8 +30,6 @@ void draw() {
     moviles[i].Hom();
   }
 }
-
-// === ¡AQUÍ DEBE IR LA CLASE! ===
 class Movil { 
   PVector pos;
   PVector vel;
